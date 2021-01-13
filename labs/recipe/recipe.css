@@ -1,0 +1,28 @@
+
+body{
+	color:#404040;
+	background-color: white;
+	font-family: Georgia, Garamond ;
+	
+}
+
+h1{
+	color:#A4A400;
+	background-color: #F0F0F0;
+	font-family: Lucida Sans Unicode, Helvetica, Arial;
+	font-size: 22px;
+	text-decoration:underline;
+
+}
+
+h2{
+	color:#A4A400;
+	background-color: #F0F0F0;
+	font-family: Lucida Sans Unicode, Helvetica, Arial;
+	font-size: 18px;
+	text-decoration:underline; 
+}
+a{
+	color:#A4A400;
+	text-decoration:underline;
+}

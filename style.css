@@ -1,0 +1,37 @@
+
+
+table,th,td{
+	border:2px solid black;
+}
+table {
+border-collapse: collapse;
+align-self: center;
+} 
+
+#row1{
+background-color:#4aad15;
+text-align: center;
+}
+.oddrow{
+text-align: center;
+background-color:#aeb5aa;
+border-radius:8px;	
+border-top-width: 8px;
+}
+
+div tr{
+	text-align: center;
+	font-size: 22px;
+}
+#courseOverview{
+	text-align: center;
+	font-size: 26px;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+.lessons{
+	
+	font-size: 21px
+}
