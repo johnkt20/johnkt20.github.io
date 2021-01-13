@@ -6,28 +6,29 @@
      <meta name="description" content="labs"/>
      <meta name= "keywords"  content="HTML,CSS">
      <meta name="vewport" content="width= device-width, initial-scal=1.0">
-    
+    <link href="style.css" type="text/css" rel="stylesheet"/>
 </head>
    <body>
    	<h1> Yohannes Teweldeberhan </h1>
    	<img src="photo.jpg" alt="myphoto" width="300" height="400"/>
+   	<div class="lessons">
    	<ul>
    		<li>Lesson 1</li>
    	 <li>
    		<ul>
    			<li> <a href="labs/aboutme.html" target="_blank">AboutMe</a> </li>
-   			<li> <a href="http://www.google.com/" target="_blank">Exercise 2 </a> </li>
+   			<li> <a href="labs/recipe/pie.html" target="_blank">Pie </a> </li>
    			<li> <a href="http://www.google.com/" target="_blank"> Exercies 3 </a> </li>
    		</ul>
    	</li>
    		<li>Lesson 2</li>
    		<li>lesson 3</li>
    	</ul>
-   	
-
-<table border="1">
-
-	<tr> 
+   	</div>
+<h2 id="courseOverview"> Course Overview</h2>
+<div class="allrows">
+<table class="center">
+	<tr id="row1"> 
 		<th></th>
 		<th>Monday </th>
 		<th>Tuesday</th> 
@@ -37,10 +38,8 @@
 		<th>Saturday</th>
 	</tr>
 
-	<tr><td colspan ="7"> Theme I: HTML and CSS-The Nature of Life is to Grow - Life is structured in layers</td>
-	</tr>
-	<tr>
-		<td><strong>week1</strong></td>
+	<tr class="oddrow">
+		<td><strong>Week 1</strong></td>
 		<td>web&html</td>
 		<td>css for styling</td>
 		<td>page layout using Css</td>
@@ -48,11 +47,8 @@
 		<td>JavaScript Basics</td>
 		<td> javascript Basics cont.</td>
 	</tr>
-    <tr>
-    	<td colspan ="7"> Them II: Client-side Programming - Purification Leads to Progress</td>
-	</tr>
-	<tr>
-		<td> <strong>week2</strong></td>
+	<tr class="evenrows" >
+		<td> <strong>Week 2</strong></td>
 		<td> JavaScript on Browsers</td>
 		<td> Scope & Closue</td>
 		<td> JavaScript Inheritance</td>
@@ -62,12 +58,8 @@
 		
 	</tr>
 
-	<tr>
-		<td colspan="7"> Theme III: Server-Side Programming with Servlets and JSP -Every Action has a Reaction
-		</td>
-	</tr>
 
-	<tr>
+	<tr class="oddrow">
 		<td> <Strong> Week 3</Strong></td>
 		<td> Midterm Exam</td>
 		<td> State Management</td>
@@ -77,23 +69,19 @@
 		<td> Project</td>
 	</tr>
 
-	<tr>
-		<td colspan="7"> Theme IV: Integrating all parts together - The Whole is Greater than the Sum of the Parts
-		</td>
-	</tr>
-	<tr>
+	<tr class="evenrows">
 		<td> <Strong> Week 4 </Strong> </td>
 		<td> Project</td>
 		<td> Project Presentation</td>
 		<td> Review </td>
 		<td> Final Exam</td>
+		<td></td>
+		<td></td>
 	</tr>
-
-
-
 
 	</table>
 
+</div>
 <p> 
    <a href="https://validator.w3.org/check/referer"> 
       <img src="html5_validator.png" alt="Validate" /> 
