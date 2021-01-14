@@ -1,0 +1,89 @@
+#main{
+	
+	background-image: url("background.png");
+}
+#head{
+	text-align: center
+}
+#belowhead{
+	border-radius: 15px;
+	border:5px solid #70706c;
+	width:60%;
+	margin:auto;
+}
+#generalview img{
+	
+	width:15%;
+	float:right;
+	padding-right: 20px
+	
+	
+	text-align: right;
+
+
+}
+#rotten{
+	background-color:#074015;
+
+	width:85%;
+}
+#threethree{
+	color:red;
+	font-size:40pt;
+	margin-left:60px;
+	font-weight: bold;
+}
+#dlll{
+	border-radius: 3px;
+	border:5px solid green;
+	background-color:#6cba6f;
+	width:8.2%;
+	margin-top:127px;
+	position:absolute;
+	right:308px;
+
+	font-size:9pt;
+
+}
+#ditch{
+	
+}
+#datch1{
+	
+	width: 33%;
+	
+}
+#datch2{
+	
+	width: 45%;
+	
+
+}
+
+.datch{
+	
+	display: inline-block;
+}
+
+#dach{
+	border-radius: 20px;
+border:5px solid #cecfc4;	
+background-color: #fbfccf;
+}
+
+#tmnt{
+	border:5px solid red;
+}
+#turtle{
+	
+}
+#w3c{
+	position :absolute;
+	right:0;
+	bottom:-630px
+
+}
+#foot{
+	
+	text-align: center;
+}
