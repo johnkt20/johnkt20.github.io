@@ -1,0 +1,66 @@
+body{
+background-image:url('Journal_files/background');
+}
+
+#main{
+	border:10px solid white ;
+	color: #29b390;
+	padding:0px,0px,0px,-60px;
+	background-color:white;
+	height:587px;
+}
+#victoria{
+	background-color: #A8F0F0;
+	text-align: right
+}
+#so{
+	font-size:14pt;
+}
+#spa {
+	border-radius: 25px;
+	background-color: #C2E9E9;
+	padding:5px;
+	margin-top:10px;
+	border-radius:15px round 
+	margin-left: 25%;
+	overflow:auto;
+	width:82%;
+	float:right;
+
+}
+.date{
+	
+	border-bottom:2px dashed blue;
+}
+#friends{
+	border:10px solid #128587;
+	border-radius:15px;
+	border-color:#128587;
+	background-color: #C2E9E9;
+	width:15%;
+
+}
+.fri{
+	
+	display:inline-block;
+
+}
+#spaimg{
+	float: right;
+}
+#cookimg{
+	float:right;
+}
+#spaa{
+	border-radius: 25px;
+	background-color: #C2E9E9;
+	padding:5px;
+	border-radius:15px round 
+	margin-left: 25%;
+	overflow:auto;
+	width:82%;
+	float:right;
+	display:inline;
+	
+
+}
