@@ -1,0 +1,41 @@
+label{
+    
+    display:block;
+}
+#city{
+ 
+  width:5%;
+    
+}
+#state{
+    margin-left: 95px;
+   
+  width:5%;
+ 
+}
+#zip{
+    margin-left: 95px;
+   
+    width:5%;
+   
+}
+.city{
+    display:inline-block
+}
+#submit{
+    font-size:100px;
+}
+input{
+    size:100px;
+}
+   
+input[id="sub"]{
+    width:400px;
+    height:30px;
+    font-weight: bold;
+    background-color: #6981fa;
+}
+#main{
+    width: 65%;
+    margin:auto;
+}

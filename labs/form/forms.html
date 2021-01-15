@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf8"/>
+    <link href="formsstyle.css" type="text/css" rel="stylesheet"/>
+    <title>form</title>
+
+</head>
+
+<html>
+
+<div id="main">
+    <h2> Application Form</h2>
+    <form >
+        <label id="firstName"> First name </label>
+    <input name="fName" type="text" size=73 required/>
+    <label > Middle name (optional)</label>
+    <input name="middleName" type="text" size=73 required/>
+    <label> Last name</label>
+    <input name="lastName" type="text" size=73 required/>
+
+    <label> SNN</label>
+    <div>
+    <input name="lastName" type="text" size=73 placeholder="222-22-2222" required pattern="^\d{3}-\d{2}-\d{4}$" maxlength="11"/>
+    </div>
+
+
+    <div id=city class="city">
+        <label >Credit Card</label> </div>
+    <div id="state" class="city">
+        <label class="city">3 digits</label> </div>
+    
+    <div id="zip" class="city">
+        <label class="city">Expire date</label></div>
+    <div>
+     <input name="city" required pattern="[1-9]\d{13,19}"/> 
+     <input name="State" required/ pattern="[1-9]{3}" maxlength="3"> 
+     <input name="zip code" required placeholder="MM/DD/YYYY" pattern="((?:0[1-9])|(?:1[0-2]))\/((?:0[0-9])|(?:[1-2][0-9])|(?:3[0-1]))\/(\d{4})"/>
+    </div>
+
+   
+    <label> Suffix (optional)</label>
+    <label> Residential address line 1</label>
+    <div>
+    <input name="residential" type="text" size=73 required/>
+</div>
+    <div id=city class="city">
+        <label >City</label> </div>
+    <div id="state" class="city">
+        <label class="city">State</label> </div>
+    
+    <div id="zip" class="city">
+        <label class="city">Zipcode</label></div>
+    <div>
+     <input name="city" required/> 
+     <input name="State" required/> 
+     <input name="zipcode" required placeholder="Enter 5 digit zip" pattern="[1-9]{5}" maxlength="5"/>
+    </div>
+     <label>Primary phone number</label>
+     <div> 
+         <input name="phoneNumber" type="text" placeholder="Enter 10 digit phone number"size 73 pattern="[1-9]{10}" maxlength="10" required>
+     </div>
+     <input name="phone" type="radio" required> Mobile phone <input name="phone" type="radio" required> Home phone
+     <label> Email address</label>
+     <input name="Email" type="text" required>
+     <label> Date of birth</label>
+     <input name="birth" type="text" required placeholder="MM/DD/YYY" pattern="((?:0[1-9])|(?:1[0-2]))\/((?:0[0-9])|(?:[1-2][0-9])|(?:3[0-1]))\/(\d{4})">
+     <div id="submit">
+     <input name="Submit" type="submit" id="sub"  >
+    </div>
+       
+
+    </div>
+</html>
